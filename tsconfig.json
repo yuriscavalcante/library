@@ -16,6 +16,16 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "paths": {
+      "@my-org/some-lib/*": [
+        "projects/some-lib/*",
+        "projects/some-lib"
+      ],
+      "@my-org/some-lib": [
+        "dist/some-lib/*",
+        "dist/some-lib"
+      ]
+    },
     "target": "es2020",
     "module": "es2020",
     "lib": [

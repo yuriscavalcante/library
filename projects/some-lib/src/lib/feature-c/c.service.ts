@@ -6,4 +6,7 @@ import { Injectable } from '@angular/core';
 export class CService {
 
   constructor() { }
+  teste(){
+    console.log("Deu certo");
+  }
 }
